@@ -1,70 +1,134 @@
-# Getting Started with Create React App
+# Miuul React JS
+[Github]()
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Git Terminal Codes
+```sh
+git init 
+git add .
+git commit -m "init git"
+git add remote origin44 URL
+git branch -M main
+git push -u origin44  main
+ssh-keygen -t rsa -b 4096 -C "hamitmizrak@gmail.com"
+cat ~/.ssh/id_rsa.pub ==> KOPYALAA GİTHUB SSH YAPIŞTIR.
+```
 
-## Available Scripts
+## Npm Codes
+```sh
+npm doctor
+npm audit
+npm install
+npm i 
 
-In the project directory, you can run:
+npm list 
+npm list -g
+npm list -g --depth=0
+npm root
+npm root -g
 
+npm search express
+
+npm install express --save 
+npm install -g express 
+npm install mocha --save-dev 
+npm install tailwindcss -D
+
+npm uninstall express
+
+npm update 
+npm update express
+```
+
+---
+## Linux 
+```sh
+pwd
+whoami
+ls -la
+cd .
+cd ..
+mkdir dizin
+cat >> deneme.tx
+```
+
+---
+## Web Pack
+```sh
+
+```
+
+---
+## RUN
+```sh
+npm run typescript
+npm run nodemon
+npm run tsconfig  
+tsc 
+tsc -w
+```
+
+--- 
+
+
+## Package Json 
+```sh
+node -v  => v20.10.0 (Semantic Version)
+npm -v   => 10.2.3   (Semantic Version)
+npm init
+npm init -y
+npm install
+```
+
+---
+## Nodemon (Nodemon: Node js monitor => Javascript sürekli takip eder)
+```sh
+npm install -g nodemon --save 
+npm install  nodemon --save-dev
+nodemon index.js
+nodemon -q index.js
+```
+
+---
+## Typescript
+```sh
+npm install -g typescript 
+npm install typescript --save-dev
+
+tsc 
+tsc index.ts
+
+tsc -w index.ts
+nodemon index.js
+```
+
+---
+## tsconfig.json
+```sh
+npm init -y 
+npm i -g nodemon  
+npm i nodemon  --save-dev
+npm i -g typescript
+npm i  typescript --save-dev
+
+tsc --init 
+tsc --init --locale tr
+tsc
+tsc -w
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon ./src/index.js",
+    "typescript": "tsc -w ./src/index.ts",
+    "typescript44": "tsc -w"
+  },
+```
+
+---
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

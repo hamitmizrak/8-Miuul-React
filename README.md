@@ -1,6 +1,9 @@
 # Miuul React JS
 [Github](https://github.com/hamitmizrak/8-Miuul-React)
 
+[Font Awesome Free](https://fontawesome.com/search?m=free&o=r)
+
+
 ## Git Terminal Codes
 ```sh
 git init 

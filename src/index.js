@@ -1,17 +1,26 @@
+// REACT JS
 import React from 'react';
+
+// REACT DOM
 import ReactDOM from 'react-dom/client';
+
+// External Css
 import './index.css';
-import App from './compontents/_1_Style/Style';
+
+// reportWebVitals
 import reportWebVitals from './reportWebVitals';
 
+// Component
+import _1_Style from './compontents/_1_Style/Style';
+import JsxTutorials from './compontents/_2_Jsx/JsxTutorials';
+
+// ROOT
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <_1_Style />  */}
+    <JsxTutorials />
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

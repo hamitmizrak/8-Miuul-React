@@ -16,6 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+          <i class="fa-solid fa-truck-fast"></i>
           Learn React
         </a>
       </header>

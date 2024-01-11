@@ -13,13 +13,15 @@ import reportWebVitals from './reportWebVitals';
 // Component
 import _1_Style from './compontents/_1_Style/Style';
 import JsxTutorials from './compontents/_2_Jsx/JsxTutorials';
+import MyClassComponent from './compontents/_3_ClassComponet/MyClassComponent';
 
 // ROOT
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <_1_Style />  */}
-    <JsxTutorials />
+    {/* <JsxTutorials /> */}
+    <MyClassComponent companyName="Miuul" />
   </React.StrictMode>
 );
 

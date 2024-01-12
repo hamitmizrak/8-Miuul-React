@@ -9,7 +9,11 @@ import "./index.css";
 
 // reportWebVitals
 import reportWebVitals from "./reportWebVitals";
-import MyContextApp from "./compontents/_5_ContentComponent/MyContextApp.jsx";
+
+// ROUTER
+import { BrowserRouter } from "react-router-dom";
+import MyRouterMiuul from "./compontents/_6_RouterComponent/MyRouterMiuul";
+//import MyContextApp from "./compontents/_5_ContentComponent/MyContextApp.jsx";
 
 // Component
 // import _1_Style from './compontents/_1_Style/Style';
@@ -19,7 +23,6 @@ import MyContextApp from "./compontents/_5_ContentComponent/MyContextApp.jsx";
 //  import MyFunctionMiuulCounter from './compontents/_4_FunctionComponent/_2_MyFunctionUseState';
 // import MyFunctionUseEffect from './compontents/_4_FunctionComponent/_3_MyFunctionUseEffect';
 // import ReducerCounterMiuul from "./compontents/_4_FunctionComponent/_4_MyFunctionReducer.jsx";
-
 
 // ROOT
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -42,7 +45,12 @@ root.render(
 
     {/* <ReducerCounterMiuul /> */}
 
-    <MyContextApp/>
+    {/* <MyContextApp/> */}
+
+    <BrowserRouter>
+       <MyRouterMiuul/>
+    </BrowserRouter>
+  
   </React.StrictMode>
 );
 

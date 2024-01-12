@@ -1,37 +1,44 @@
 // REACT JS
-import React from 'react';
+import React from "react";
 
 // REACT DOM
-import ReactDOM from 'react-dom/client';
+import ReactDOM from "react-dom/client";
 
 // External Css
-import './index.css';
+import "./index.css";
 
 // reportWebVitals
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from "./reportWebVitals";
 
 // Component
-import _1_Style from './compontents/_1_Style/Style';
-import JsxTutorials from './compontents/_2_Jsx/JsxTutorials';
-import MyClassComponent from './compontents/_3_ClassComponet/MyClassComponent';
-import MyFunctionComponent from './compontents/_4_FunctionComponent/_1_MyFunctionComponent';
-import MyFunctionMiuulCounter from './compontents/_4_FunctionComponent/_2_MyFunctionMiuulCounter';
+// import _1_Style from './compontents/_1_Style/Style';
+//  import JsxTutorials from './compontents/_2_Jsx/JsxTutorials';
+//  import MyClassComponent from './compontents/_3_ClassComponet/MyClassComponent.jsx';
+//  import MyFunctionComponent from './compontents/_4_FunctionComponent/_1_MyFunctionComponent';
+//  import MyFunctionMiuulCounter from './compontents/_4_FunctionComponent/_2_MyFunctionUseState';
+// import MyFunctionUseEffect from './compontents/_4_FunctionComponent/_3_MyFunctionUseEffect';
+import ReducerCounterMiuul from "./compontents/_4_FunctionComponent/_4_MyFunctionReducer.jsx";
 
 // ROOT
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* <_1_Style />  */}
+
     {/* <JsxTutorials /> */}
+
     {/* <MyClassComponent companyName="Miuul" /> */}
-    <MyFunctionComponent 
+
+    {/* <MyFunctionComponent 
     companyName="Miuul" 
     content="Function Component Data" 
-    />
+    /> */}
 
-    <MyFunctionMiuulCounter />
+    {/* <MyFunctionMiuulCounter /> */}
 
+    {/* <MyFunctionUseEffect/> */}
 
+    <ReducerCounterMiuul />
   </React.StrictMode>
 );
 

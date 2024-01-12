@@ -6,7 +6,7 @@
 import React from "react";
 
 // FUNCTION MyFunctionComponent
-function MyFunctionComponent(props){
+function _1_MyFunctionComponent(props){
 
     // Object Destructing
     const {content}=props
@@ -20,4 +20,4 @@ function MyFunctionComponent(props){
 } //end Function MyFunctionComponent
 
 // EXPORT
-export default MyFunctionComponent
+export default _1_MyFunctionComponent

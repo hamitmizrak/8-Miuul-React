@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 // FUNCTION MyFunctionMiuulCounter
-function MyFunctionMiuulCounter() {
+function _2_MyFunctionUseState() {
   // STATE
   const [count, setCount] = useState(0);
 
@@ -45,4 +45,4 @@ function MyFunctionMiuulCounter() {
 } //end MyFunctionMiuulCounter
 
 // EXPORT
-export default MyFunctionMiuulCounter;
+export default _2_MyFunctionUseState;

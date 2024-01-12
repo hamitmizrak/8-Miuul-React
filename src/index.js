@@ -10,9 +10,14 @@ import "./index.css";
 // reportWebVitals
 import reportWebVitals from "./reportWebVitals";
 
+// REDUX 
+import {Provider} from 'react-redux';
+import store from "./store";
+import MyRedux from "./compontents/_7_ReduxComponent/MyRedux";
+
 // ROUTER
-import { BrowserRouter } from "react-router-dom";
-import MyRouterMiuul from "./compontents/_6_RouterComponent/MyRouterMiuul";
+//import { BrowserRouter } from "react-router-dom";
+//import MyRouterMiuul from "./compontents/_6_RouterComponent/MyRouterMiuul";
 //import MyContextApp from "./compontents/_5_ContentComponent/MyContextApp.jsx";
 
 // Component
@@ -47,10 +52,16 @@ root.render(
 
     {/* <MyContextApp/> */}
 
+    {/* 
     <BrowserRouter>
        <MyRouterMiuul/>
-    </BrowserRouter>
-  
+    </BrowserRouter> 
+    */}
+
+    {/* Redux */}
+    <Provider store={store}>
+      <MyRedux />
+    </Provider>
   </React.StrictMode>
 );
 

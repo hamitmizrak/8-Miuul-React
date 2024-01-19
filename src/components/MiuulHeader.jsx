@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function MiuulHeader() {
+export default function MiuulHeader(props) {
   return (
     <React.Fragment>
 
@@ -9,7 +9,7 @@ export default function MiuulHeader() {
   className="navbar mb-5 navbar-expand-md fixed-top navbar-dark bg-dark"
 >
   <div className="container">
-    <Link to="/" className="navbar-brand">Miuul</Link>
+    <Link to="/" className="navbar-brand">{props.logo}</Link>
     <button
       className="navbar-toggler d-lg-none"
       type="button"

@@ -1,13 +1,189 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*
+Project Name: SPA (One Page)
+Project Version: v1.0.0
+*/
+
+/***** ROOT & COMMON *******************************************************/
+/********************************************************************/
+:root{
+  --miuul_bg_color:#3d3b3b;
+  --miuul_color:#eee2e2;
+  --miuul_section_blue:blueviolet;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin:0;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 20px !important;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  background-color: var(--miuul_bg_color);
+  color:var(--miuul_color)
+}
+/* 
+p{
+  text-align: justify;
+  padding: 0.7rem 1.1rem;
+} */
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  text-align:center;
+  text-transform: uppercase;
+  margin: 1.1rem aut;
+}
+
+p,h4{
+  color:black;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+img:hover{
+  opacity: 0.8;
+}
+
+.miuul_line_clamp5{
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.miuul_line_clamp10{
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+}
+
+.miuul_line_clamp15{
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 15;
+  -webkit-box-orient: vertical;
+}
+
+/***** NAVBAR *******************************************************/
+/********************************************************************/
+#miuul_navbar_id  a{
+  /* color:white; */
+}
+
+/***** HEADER *******************************************************/
+/********************************************************************/
+#miuul_header_id{
+  background-image: url('./img/Transition.png');
+  background-size:cover;
+  background-position: 49% 49%;
+  z-index: -1;
+  height: 92vh;
+  padding-top:14rem;
+  text-align:center;
+  
+}
+#miuul_header_heading_id{
+  background-color: #3d3b3b;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: white;
+  padding:1rem;
+  opacity: 0.8;
+}
+#miuul_header_parag_id{
+  background-color: #3d3b3b;
+  font-size: 1.3rem;
+  text-align: center;
+  color: white;
+  padding:1rem;
+  opacity: 0.8;
+}
+
+.miuul_header_icon{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 4%;
+  font-size: 1.7rem;
+  /* border:1px solid rgba(0,0,0.9); */
+}
+#miuul_linkedin_id{
+  color:blueviolet;
+}
+
+#miuul_youtube_id{
+  color:red;
+}
+
+#miuul_github_id{
+  color:rgb(21, 188, 180);
+}
+
+/***** MAIN *******************************************************/
+/********************************************************************/
+section{
+  margin-top:5rem;
+  margin-bottom:5rem;
+}
+
+/* BLOG */
+#section_blog_id{
+  background-color: var(--miuul_section_blue);
+  padding-top:1rem;
+  padding-bottom:1rem;
+}
+
+
+#section_blog_id .card{
+margin-bottom: 0.7rem;
+}
+
+
+/*BACK TO TOP*/
+#miuul_back_to_top_id{
+position: fixed;
+right: 0;
+bottom:0;
+background-color: black;
+color:yellow;
+width: 2rem;
+margin-right: 1rem;
+font-size: 1.5rem;
+padding-top:1rem;
+padding-left:0.5rem;
+opacity: 0.6;
+}
+
+#miuul_back_to_top_id:hover{
+  opacity: 0.8;
+  cursor:pointer;
+}
+
+
+/***** FOOTER *******************************************************/
+/********************************************************************/
+#miuul_footer_id{
+  background-color:black;
+  color: var(--miuul_color);
+  padding: 1.1rem;
+  text-align: center;
+  font-size: 1.1rem;
+  bottom: 0;
+  width: 100%;
 }

@@ -1,6 +1,9 @@
 // REACT
 import React, { useEffect, useState } from 'react'
 
+// import CSS
+import './common.css'
+
 // NAVIGATE
 import { useNavigate } from 'react-router-dom'
 

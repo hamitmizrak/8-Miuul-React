@@ -10,6 +10,7 @@ import MiuulSpaCreate from "./components/miuulspa/MiuulSpaCreate";
 import MiuulSpaList from "./components/miuulspa/MiuulSpaList";
 import MiuulSpaView from "./components/miuulspa/MiuulSpaView";
 import MiuulSpaUpdate from "./components/miuulspa/MiuulSpaUpdate";
+import MiuulFooter from "./components/MiuulFooter";
 
 class MiuulReactRouter extends Component {
   render() {
@@ -17,7 +18,7 @@ class MiuulReactRouter extends Component {
       <React.Fragment>
         <MiuulHeader logo="Miuul Logo" />
 
-        <div className="container mb-5">
+    
           <Routes>
             <Route path={"/"} element={<MiuulMain />} />
             <Route path={"/index"} element={<MiuulMain />} />
@@ -30,9 +31,8 @@ class MiuulReactRouter extends Component {
 
             <Route path={"*"} element={<Navigate to={"/"} />} />
           </Routes>
-        </div>
 
-        {/* <MiuulFooter copy="Miuul Footer"/> */}
+         <MiuulFooter copy="Miuul Footer"/> 
       </React.Fragment>
     );
   }

@@ -11,9 +11,11 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 // REDUX 
-import {Provider} from 'react-redux';
-import store from "./store";
-import MyRedux from "./compontents/_7_ReduxComponent/MyRedux";
+//import {Provider} from 'react-redux';
+//import store from "./store";
+//import MyRedux from "./tutorials/_7_ReduxComponent/MyRedux";
+import MiuulReactRouter from "./MiuulReactRouter";
+import { BrowserRouter } from "react-router-dom";
 
 // ROUTER
 //import { BrowserRouter } from "react-router-dom";
@@ -52,16 +54,16 @@ root.render(
 
     {/* <MyContextApp/> */}
 
-    {/* 
+   
     <BrowserRouter>
-       <MyRouterMiuul/>
+       <MiuulReactRouter/>
     </BrowserRouter> 
-    */}
+   
 
     {/* Redux */}
-    <Provider store={store}>
+    {/* <Provider store={store}>
       <MyRedux />
-    </Provider>
+    </Provider> */}
   </React.StrictMode>
 );
 

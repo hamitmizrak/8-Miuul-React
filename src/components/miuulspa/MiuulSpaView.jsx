@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function MiuulSpaView() {
   return (
-    <div>MiuulSpaView</div>
+    <div style={{marginTop:"2rem"}}>MiuulSpaView</div>
   )
 }

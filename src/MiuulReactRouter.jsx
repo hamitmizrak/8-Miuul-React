@@ -25,9 +25,7 @@ class MiuulReactRouter extends Component {
             <Route path={"/miuul/spa/list"} element={<MiuulSpaList />} />
             <Route path={"/miuul/spa/create"} element={<MiuulSpaCreate />} />
             <Route path={"/miuul/spa/view/:id"} element={<MiuulSpaView />} />
-            <Route
-              path={"/miuul/spa/update/:id"}
-              element={<MiuulSpaUpdate />}
+            <Route path={"/miuul/spa/update/:id"} element={<MiuulSpaUpdate />}
             />
 
             <Route path={"*"} element={<Navigate to={"/"} />} />
